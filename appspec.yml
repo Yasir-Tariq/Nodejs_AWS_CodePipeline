@@ -13,7 +13,7 @@ permissions:
       - file
   - object: /
     owner: ubuntu
-    group: Ubuntu
+    group: ubuntu
     mode: 777
     type:
       - directory
