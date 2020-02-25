@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ec2-user/myapp
+cd /home/ubuntu/myapp
 node index.js
