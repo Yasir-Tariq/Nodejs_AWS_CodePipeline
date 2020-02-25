@@ -4,16 +4,21 @@ files:
   - source: /
     destination: /home/ubuntu/myapp
     # overwrite: true
+permissions:
+  - object: /
+    owner: ubuntu
+    group: Ubuntu
+    mode: 777
+    type:
+      - file
+  - object: /
+    owner: ubuntu
+    group: Ubuntu
+    mode: 777
+    type:
+      - directory
 hooks:
-  # BeforeInstall:
-  #   - location: scripts/before.sh
-  #     timeout: 500
-  #     runas: root
-  AfterInstall:
-    - location: scripts/after.sh
-      timeout: 500
-      runas: ubuntu
   ApplicationStart:
     - location: scripts/start_server.sh
-      timeout: 500
+      timeout: 300
       runas: ubuntu
