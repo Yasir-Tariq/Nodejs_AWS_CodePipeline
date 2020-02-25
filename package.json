@@ -1,15 +1,20 @@
 {
-  "name": "myapp",
+  "name": "Nodejs_AWS_CodePipeline",
   "version": "1.0.0",
-  "description": "Packages",
+  "description": "Simple node.js app that servers \"hello world\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Yasir Tariq",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yasir-Tariq/Nodejs_AWS_CodePipeline.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "forever": "^2.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/Yasir-Tariq/Nodejs_AWS_CodePipeline/issues"
+  },
+  "homepage": "https://github.com/Yasir-Tariq/Nodejs_AWS_CodePipeline#readme"
 }
