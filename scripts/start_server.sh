@@ -1,3 +1,4 @@
 #!/bin/bash
 cd /home/ubuntu/myapp
-node index.js
+# node index.js
+forever start index.js
