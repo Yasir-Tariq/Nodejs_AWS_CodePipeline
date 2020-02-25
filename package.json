@@ -8,5 +8,8 @@
     "start": "node index.js"
   },
   "author": "Yasir Tariq",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^2.0.0"
+  }
 }
