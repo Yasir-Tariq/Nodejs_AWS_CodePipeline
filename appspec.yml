@@ -9,6 +9,10 @@ hooks:
     - location: scripts/before.sh
       timeout: 500
       runas: root
+  RemoveLoack:
+    - location: scripts/before.sh
+      timeout: 500
+      runas: root
   AfterInstall:
     - location: scripts/after.sh
       timeout: 500
