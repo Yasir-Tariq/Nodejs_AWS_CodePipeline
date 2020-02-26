@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo 'this is pre-build phase'
+  build:
+    commands:
+      - echo 'This is post-build phase'
+
+artifacts:
+  files:
+    - '**/*'
